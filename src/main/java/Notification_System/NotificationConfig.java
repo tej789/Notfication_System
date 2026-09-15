@@ -17,3 +17,11 @@ public String getEmailHost(){
 }
 
 }
+/*
+Today:
+=> singleton and factory method
+Tomorrow:
+=> complete implementation and learn builder
+Impediments:
+=> NONE
+ */
