@@ -17,6 +17,9 @@ public String getEmailHost(){
 }
 
 }
+
+
+
 /*
 Today:
 => singleton and factory method
