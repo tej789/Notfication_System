@@ -7,9 +7,6 @@ public class NotifierFactory {
         this.config = NotificationConfig.getInstance();
     }
 
-
-
-
     public Notifier createNotifier(String notifier){
 
 
@@ -18,10 +15,10 @@ public class NotifierFactory {
         }
 
         if(notifier.equals("sms")){
-            return new SMSNotifier();
+            return new SMSNotifier(config);
         }
         if (notifier.equals("push")) {
-            return new PushNotifier();
+            return new PushNotifier(config);
         }
 
         throw new IllegalArgumentException("Unknown Notifier: " + notifier);

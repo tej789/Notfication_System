@@ -27,4 +27,13 @@ Tomorrow:
 => complete implementation and learn builder
 Impediments:
 => NONE
+
+
+Singleton is better than a class of static methods
+because singleton contain inheritance and one instance is
+
+Application context is act as a big singeton class and there also
+each bean share same instance
+
+
  */
