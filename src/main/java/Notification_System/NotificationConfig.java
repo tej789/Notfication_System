@@ -25,12 +25,12 @@ public String getEmailHost(){
 
 /*
 
+A real Singleton creates one actual object that can be shared throughout the application.
+A Singleton is a real object, so it can implement an interface and be used through that
+ interface, while a static utility class only provides static methods.
 
-Singleton is better than a class of static methods
-because singleton contain inheritance and one instance is
-
-Application context is act as a big singeton class and there also
-each bean share same instance
-
+ApplicationContext acts like a big factory that creates and manages beans.
+ By default, each Spring bean has Singleton scope,
+  so the same bean instance is shared within the ApplicationContext.
 
  */
