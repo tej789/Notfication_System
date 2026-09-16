@@ -111,3 +111,10 @@ public class Order {
         System.out.println(order);
     }
 }
+
+Today:
+=> Learned And Implemented Builder
+Tomorrow:
+=> Adapter , Decorator , Facade
+Impediments:
+=> NONE
