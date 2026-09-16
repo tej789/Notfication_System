@@ -113,7 +113,7 @@ public class Order {
 }
 
 Today:
-=> Learned And Implemented Builder
+=> Learned And Implemented Builder Design pattern
 Tomorrow:
 => Adapter , Decorator , Facade
 Impediments:

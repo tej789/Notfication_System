@@ -109,3 +109,10 @@ public class Order {
         System.out.println(order);
     }
 }
+/*
+Lombok's @Builder generates this Builder pattern for you, including the builder class,
+chainable methods, and build() method, so you don't have to write all that boilerplate manually.
+ You would still want to check business rules and required-field validation yourself,
+ because @Builder by itself does not automatically know which fields your application considers
+  valid or required.
+ */
