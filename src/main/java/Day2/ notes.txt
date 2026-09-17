@@ -1,13 +1,6 @@
 LOMBOK's @Builder creates a builder code for us , so we do not need to write it manually.
 but we still need to check required fields.
 
-
-
-
-
-
-
-
 Today:
 => Learned And Implemented Builder Design pattern
 Tomorrow:
