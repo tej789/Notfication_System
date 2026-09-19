@@ -5,7 +5,7 @@ public class Main {
         StockHandler stock = new StockHandler();
         FraudHandler fraud = new FraudHandler();
         InventoryHandler inventory = new InventoryHandler();
-
+        PaymentHandler payment = new PaymentHandler();
         stock.setNext(fraud);
         fraud.setNext(inventory);
 

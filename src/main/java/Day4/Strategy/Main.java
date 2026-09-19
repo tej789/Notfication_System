@@ -1,16 +1,13 @@
 package Day4.Strategy;
 
-import Day4.ChainOfResponsibilty.FraudHandler;
-import Day4.ChainOfResponsibilty.InventoryHandler;
-import Day4.ChainOfResponsibilty.Order;
-import Day4.ChainOfResponsibilty.StockHandler;
+import Day4.ChainOfResponsibilty.*;
 
 public class Main {
     public static void main(String[] args) {
         StockHandler stock = new StockHandler();
         FraudHandler fraud = new FraudHandler();
         InventoryHandler inventory = new InventoryHandler();
-
+        PaymentHandler payment = new PaymentHandler();
         stock.setNext(fraud);
         fraud.setNext(inventory);
 

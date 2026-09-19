@@ -1,9 +1,6 @@
 package Day4.Observer;
 
-import Day4.ChainOfResponsibilty.FraudHandler;
-import Day4.ChainOfResponsibilty.InventoryHandler;
-import Day4.ChainOfResponsibilty.Order;
-import Day4.ChainOfResponsibilty.StockHandler;
+import Day4.ChainOfResponsibilty.*;
 import Day4.Strategy.DiscountFactory;
 import Day4.Strategy.DiscountStrategy;
 
@@ -12,7 +9,7 @@ public class Main {
         StockHandler stock = new StockHandler();
         FraudHandler fraud = new FraudHandler();
         InventoryHandler inventory = new InventoryHandler();
-
+        PaymentHandler payment = new PaymentHandler();
         stock.setNext(fraud);
         fraud.setNext(inventory);
 
