@@ -91,22 +91,23 @@ public class Order {
 
     public static void main(String[] args){
 
-//        Order order = new Builder()
-//                .items(List.of("Laptop", "Mouse"))
-//                .shippingAddress("Ahmedabad, Gujarat")
-//                .giftWrap(true)
-//                .discountCode("SAVE10")
-//                .deliveryNotes("Deliver after 5 PM")
-//                .priority(true)
-//                .build();
+        Order order = new Builder()
+                .items(List.of("Laptop", "Mouse"))
+                .shippingAddress("Ahmedabad, Gujarat")
+                .giftWrap(true)
+                .discountCode("SAVE10")
+                .deliveryNotes("Deliver after 5 PM")
+                .priority(true)
+                .build();
 
-        Order order = new Order.Builder()
+        Order order2 = new Order.Builder()
                 .items(List.of("Laptop", "Mouse"))
                 .shippingAddress("Ahmedabad")
                 .giftWrap(true)
                 .priority(true)
                 .build();
         System.out.println(order);
+        System.out.println(order2);
     }
 }
 /*

@@ -7,21 +7,21 @@ public class NotifierFactory {
         this.config = NotificationConfig.getInstance();
     }
 
-    public Notifier createNotifier(String notifier){
+    public Notifier createNotifier(String channel){
 
 
-        if(notifier.equals("email")){
+        if(channel.equals("email")){
             return new EmailNotifier(config);
         }
 
-        if(notifier.equals("sms")){
+        if(channel.equals("sms")){
             return new SMSNotifier(config);
         }
-        if (notifier.equals("push")) {
+        if (channel.equals("push")) {
             return new PushNotifier(config);
         }
 
-        throw new IllegalArgumentException("Unknown Notifier: " + notifier);
+        throw new IllegalArgumentException("Unknown Notifier: " + channel);
 
     }
 }
