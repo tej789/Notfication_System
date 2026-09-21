@@ -1,0 +1,17 @@
+when we add new status like "ESCALATED"  , so we have to change every method like
+approve , resubmit and Reject
+
+but after this new version we did not to change this approve , resubmit and Reject 3 methods we
+have to just create new class of that state and add its behavior
+
+
+
+exact shape shows in candidates hiring process where states like hired , rejected , pending exist , so then
+state pattern in useful
+
+in other online delivery process as well this state pattern can be useful
+
+
+
+state  = behavior changes because the object's state changes
+strategy = which algorithm should i use

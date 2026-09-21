@@ -14,12 +14,11 @@ public class Main {
         fraud.setNext(inventory);
 
 
-        Order order = new Order(
-                "Laptop",
-                "REGULAR",
-                2,
-                false
+        Order order = new Order("Laptop", "REGULAR", 2, false
         );
+
+
+        stock.handle(order);
 
 
         double amount = 10000;
@@ -28,7 +27,7 @@ public class Main {
 
         double discount = strategy.calculateDiscount(amount);
 
-        System.out.println("Discount: ₹" + discount);
+        System.out.println("Discount: " + discount);
 
 
 
@@ -36,10 +35,12 @@ public class Main {
 
         OrderSubjects subject = new OrderSubjects();
 
-        subject.addListener(new EmailListener());
+        EmailListener e = new EmailListener();
+
+        subject.addListener(e);
         subject.addListener(new AnalyticsListener());
         subject.addListener(new AuditListener());
-
+        subject.removeListener(e);
 
         subject.notifyListeners(order);
 

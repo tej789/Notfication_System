@@ -6,18 +6,17 @@ public class Main {
         FraudHandler fraud = new FraudHandler();
         InventoryHandler inventory = new InventoryHandler();
         PaymentHandler payment = new PaymentHandler();
+
+
         stock.setNext(fraud);
         fraud.setNext(inventory);
 
 
         Order order = new Order(
-                "Laptop",
-                "VIP",
-                2,
-                false
+                "Laptop", "REGULAR", 2, false
         );
 
-        boolean accepted = stock.handle(order);
+     stock.handle(order);
 
     }
 }

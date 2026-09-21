@@ -1,6 +1,8 @@
-comparator is Strategy pattern ,comparator represents diffrent way of comparing objects
+comparator is Strategy pattern ,comparator represents different way of comparing objects
 , we sort list by any particular parameter.
 
 we can create handlers for each and connect them in order .
 so each handler check if it can resolve the request ,
 if yes it will resolve it otherwise it will pass to next handler.
+
+

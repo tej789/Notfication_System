@@ -13,20 +13,16 @@ public class Main {
 
 
         Order order = new Order(
-                "Laptop",
-                "REGULAR",
-                2,
-                false
+                "Laptop", "REGULAR", 2, false
         );
 
 
         double amount = 10000;
 
         DiscountStrategy strategy = DiscountFactory.getDiscount(order.getCustomerType());
-
         double discount = strategy.calculateDiscount(amount);
 
-        System.out.println("Discount: ₹" + discount);
+            System.out.println("Discount: " + discount);
 
     }
 }

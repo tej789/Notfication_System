@@ -6,9 +6,7 @@ public class InventoryHandler extends OrderHandler {
     public boolean handle(Order order) {
 
         if (order.getQuantity() >= 4) {
-
             System.out.println("Inventory hold failed!");
-
             return false;
         }
 

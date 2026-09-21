@@ -2,9 +2,9 @@ LOMBOK's @Builder creates a builder code for us , so we do not need to write it 
 but we still need to check required fields.
 
 Today:
-=> Completed Decorator Implementation ,Learned Behavioral Design Patterns
+=> Completed Behavioral Patterns and Learned State Pattern
 Tomorrow:
-=> Complete Behavioral Patterns
+=> Complete State Pattern Implementation
 Impediments:
 => NONE
 
