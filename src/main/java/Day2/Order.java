@@ -44,10 +44,10 @@ public class Order {
 
         public Builder discountCode(String discountCode) {
             this.discountCode = discountCode;
-            return this;
-        }
+            return this;}
 
-        public Builder deliveryNotes(String deliveryNotes) {
+
+              public Builder deliveryNotes(String deliveryNotes) {
             this.deliveryNotes = deliveryNotes;
             return this;
         }
@@ -60,14 +60,14 @@ public class Order {
         public Order build() {
 
             if (items == null || items.isEmpty()) {
-                throw new IllegalStateException(
-                        "Order cannot be created: items are required"
+                throw new IllegalArgumentException(
+                        "items are required"
                 );
             }
 
             if (shippingAddress == null || shippingAddress.isBlank()) {
-                throw new IllegalStateException(
-                        "Order cannot be created: shipping address is required"
+                throw new IllegalArgumentException(
+                        "shipping address is required"
                 );
             }
 
@@ -79,14 +79,10 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order{" +
-                "items=" + items +
-                ", shippingAddress='" + shippingAddress + '\'' +
-                ", giftWrap=" + giftWrap +
-                ", discountCode='" + discountCode + '\'' +
-                ", deliveryNotes='" + deliveryNotes + '\'' +
-                ", priority=" + priorityFlag +
-                '}';
+        return "Order{" + "items=" + items + ", shippingAddress=" + shippingAddress +
+                ", giftWrap=" + giftWrap + ", discountCode=" + discountCode  +
+                ", deliveryNotes=" + deliveryNotes + ", priority=" + priorityFlag +
+                "}";
     }
 
     public static void main(String[] args){
