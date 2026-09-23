@@ -11,6 +11,7 @@ class InventoryService{
         System.out.println("Stock updated");
     }
 }
+
 public class Facade {
 
     private PaymentService payment = new PaymentService();

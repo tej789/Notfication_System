@@ -17,7 +17,6 @@ but we still need to check required fields.
 
 
 
-
 Today:
 => Completed State Behavioral Pattern and Its Implementation ,Requirement
 Tomorrow:

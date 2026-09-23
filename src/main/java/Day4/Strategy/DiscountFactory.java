@@ -15,9 +15,7 @@ public class DiscountFactory {
                 return new VipDiscount();
 
             default:
-                throw new IllegalArgumentException(
-                        "Invalid Customer Type"
-                );
+                throw new IllegalArgumentException("Invalid Customer Type");
         }
     }
 }

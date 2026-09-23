@@ -19,9 +19,6 @@ public class Main {
 
 
 
-//BufferedReader wrapping FileReader is an example of the Decorator pattern because
-// BufferedReader adds buffering functionality without changing FileReader.
-// Another common example is DataInputStream wrapping an InputStream, where it adds
+//BufferedReader wrapping FileReader is an example of the Decorator pattern
+// Another example is DataInputStream wrapping an InputStream, where it adds
 // methods for reading primitive data types.
-
-//

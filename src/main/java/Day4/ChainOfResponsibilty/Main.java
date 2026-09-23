@@ -14,7 +14,7 @@ public class Main {
 
 
         Order order = new Order(
-                "Laptop", "REGULAR", 4, true
+                "Laptop", "REGULAR", 3, false
         );
 
      stock.handle(order);
