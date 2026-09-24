@@ -18,9 +18,9 @@ but we still need to check required fields.
 
 
 Today:
-=> Completed State Behavioral Pattern and Its Implementation ,Requirement
+=> Solved and Explored scenario based Question Of Creational Design Patter , Structural Design Pattern
 Tomorrow:
-=> Revise all Design Pattern
+=> Question Of Behavioral Design Pattern
 Impediments:
 => NONE
 

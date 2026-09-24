@@ -9,7 +9,6 @@ public class NotificationService {
     }
 
    public void sendNotification(String channel , String message){
-
         Notifier notifier = notifierFactory.createNotifier(channel);
         notifier.send(message);
    }

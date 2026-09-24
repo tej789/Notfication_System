@@ -16,7 +16,8 @@ public class RetryDecorator extends ShippingDecorator{
             }
             catch(Exception e){
                 System.out.println("Failed");
-            }}
+            }
+        }
         System.out.println("Shipping Failed");
     }
 }
