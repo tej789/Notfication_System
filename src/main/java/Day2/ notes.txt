@@ -12,10 +12,6 @@ but we still need to check required fields.
 
 
 
-
-
-
-
 Today:
 => Solved and Explored scenario based Question Of Chain Of Responsibility, Strategy Design Pattern
 Tomorrow:
