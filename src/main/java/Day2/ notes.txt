@@ -16,11 +16,10 @@ but we still need to check required fields.
 
 
 
-
 Today:
-=> Solved and Explored scenario based Question Of Creational Design Pattern , Structural Design Pattern
+=> Solved and Explored scenario based Question Of Chain Of Responsibility, Strategy Design Pattern
 Tomorrow:
-=> Question Of Behavioral Design Pattern
+=> State Design Pattern
 Impediments:
 => NONE
 

@@ -30,9 +30,6 @@ public class Main {
         System.out.println("Discount: " + discount);
 
 
-
-
-
         OrderSubjects subject = new OrderSubjects();
 
         EmailListener e = new EmailListener();

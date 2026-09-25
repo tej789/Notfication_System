@@ -10,7 +10,6 @@ public class Order {
     private String deliveryNotes;
     private boolean priorityFlag;
 
-
     private Order(Builder builder) {
         this.items = builder.items;
         this.shippingAddress = builder.shippingAddress;
