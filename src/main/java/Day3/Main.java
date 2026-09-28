@@ -7,7 +7,6 @@ public class Main {
         shippingAdapter.ship("Laptop","Vadodara");
 
 
-
         ShippingService service = new NewShippingService();
         service = new RetryDecorator(service);
         service = new LoggingDecorator(service);

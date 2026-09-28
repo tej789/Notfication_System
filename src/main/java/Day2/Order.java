@@ -73,7 +73,6 @@ public class Order {
             return new Order(this);
         }
 
-
     }
 
     @Override
@@ -86,7 +85,7 @@ public class Order {
 
     public static void main(String[] args){
 
-        Order order = new Builder()
+        Order order = new Order.Builder()
                 .items(List.of("Laptop", "Mouse"))
                 .shippingAddress("Ahmedabad, Gujarat")
                 .giftWrap(true)
@@ -107,10 +106,12 @@ public class Order {
 }
 
 
+
+
+
 /*
-Lombok's @Builder generates this Builder pattern for you, including the builder class,
-chainable methods, and build() method, so you don't have to write all that boilerplate manually.
- You would still want to check business rules and required-field validation yourself,
- because @Builder by itself does not automatically know which fields your application considers
-  valid or required.
+Lombok's @Builder generates this Builder pattern for us, including the builder class,
+chainable methods, and build() method, so we do not have to write all that boilerplate manually.
+ but we still need to check business rules and required-field validation manually,
+ because @Builder do not know which fields our app required or not.
  */

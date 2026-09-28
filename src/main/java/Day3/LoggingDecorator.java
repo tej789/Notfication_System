@@ -1,16 +1,17 @@
 package Day3;
 
-public class LoggingDecorator extends ShippingDecorator{
+public class LoggingDecorator implements ShippingService {
+
+    private final ShippingService shippingService;
 
     public LoggingDecorator(ShippingService shippingService) {
-    super(shippingService);
+        this.shippingService = shippingService;
     }
 
     @Override
-    public void ship(String product, String address){
+    public void ship(String product, String address) {
         System.out.println("Shipping started");
-        shippingService.ship(product,address);
+        shippingService.ship(product, address);
         System.out.println("Shipping completed");
     }
-
 }

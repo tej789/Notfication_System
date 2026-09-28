@@ -6,7 +6,6 @@ public class RejectedState implements ApprovalState{
 
     public RejectedState(ApprovalRequest request) {
  this.request = request;
-
     }
 
     @Override

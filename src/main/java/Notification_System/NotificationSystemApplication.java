@@ -14,9 +14,9 @@ public class NotificationSystemApplication {
 //		notifier.send("Hello via Email!");
 
 		NotificationService service = new NotificationService();
-
 		service.sendNotification("email","Hello Email");
 		service.sendNotification("sms","Hello Via SMS");
+
 	}
 
 }

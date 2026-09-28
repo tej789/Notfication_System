@@ -8,7 +8,6 @@ public class SMSNotifier implements Notifier {
        this.config = config;
    }
 
-
     @Override
     public void send(String message){
         System.out.println("Sending SMS "+ message);

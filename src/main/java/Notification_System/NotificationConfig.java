@@ -33,4 +33,6 @@ ApplicationContext acts like a big factory that creates and manages beans.
  By default, each Spring bean has Singleton scope,
   so the same bean instance is shared within the ApplicationContext.
 
+  we can not create testing for those class that is rely on static class
+
  */

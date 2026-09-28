@@ -13,9 +13,9 @@ but we still need to check required fields.
 
 
 Today:
-=> Solved and Explored scenario based Question Of Chain Of Responsibility, Strategy Design Pattern
+=> Solved scenario based Question Of State Design Pattern , Observer Design Pattern
 Tomorrow:
-=> State Design Pattern
+=> Template Design Pattern
 Impediments:
 => NONE
 

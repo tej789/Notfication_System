@@ -15,7 +15,6 @@ request.setState(new ApprovedState(request));
     }
 
 
-
     @Override
     public void reject() {
         System.out.println("Rejected");

@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         ApprovalRequest request = new ApprovalRequest();
+        ApprovalRequest request1 = new ApprovalRequest();
 
                 request.reject();
                 request.resubmit();
@@ -11,5 +12,8 @@ public class Main {
                 request.resubmit();
                 request.approve();
                 request.resubmit();
+
+        request1.reject();
+
     }
 }

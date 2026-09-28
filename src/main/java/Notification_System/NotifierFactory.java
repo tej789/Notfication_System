@@ -17,6 +17,7 @@ public class NotifierFactory {
         if(channel.equals("sms")){
             return new SMSNotifier(config);
         }
+
         if (channel.equals("push")) {
             return new PushNotifier(config);
         }

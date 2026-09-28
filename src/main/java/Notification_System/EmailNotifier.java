@@ -7,6 +7,7 @@ public class EmailNotifier implements Notifier {
     public EmailNotifier(NotificationConfig config) {
         this.config = config;
     }
+
     @Override
     public void send(String message) {
         System.out.println(
