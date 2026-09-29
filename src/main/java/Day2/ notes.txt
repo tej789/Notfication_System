@@ -13,10 +13,9 @@ but we still need to check required fields.
 
 
 Today:
-=> Solved scenario based Question Of State Design Pattern , Observer Design Pattern
+=> Solved scenario based Question Of Template Design Pattern , Also Identify Some Pattern that needs To be
+Implement in Project
 Tomorrow:
-=> Template Design Pattern
+=> Observer Design Pattern and Identify more pattern in project
 Impediments:
 => NONE
-
-

@@ -19,3 +19,4 @@ public class InventoryHandler extends OrderHandler {
         return true;
     }
 }
+
