@@ -9,8 +9,6 @@ but we still need to check required fields.
 
 
 
-
-
 Today:
 => Identified Pattern Like Builder , Chain Of Responsibility , Template Design Patterns and make Document
    of it also Implemented Small Section Of User Register through Builder Design Pattern and implemented two
