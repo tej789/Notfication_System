@@ -11,11 +11,11 @@ but we still need to check required fields.
 
 
 
-
 Today:
-=> Solved scenario based Question Of Template Design Pattern , Also Identify Some Pattern that needs To be
-Implement in Project
+=> Identified Pattern Like Builder , Chain Of Responsibility , Template Design Patterns and make Document
+   of it also Implemented Small Section Of User Register through Builder Design Pattern and implemented two
+   handler for Transaction service
 Tomorrow:
-=> Observer Design Pattern and Identify more pattern in project
+=> Identify more pattern in project and Try to implement it
 Impediments:
 => NONE
