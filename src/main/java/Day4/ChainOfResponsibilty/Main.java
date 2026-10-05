@@ -8,7 +8,6 @@ public class Main {
         InventoryHandler inventory = new InventoryHandler();
         PaymentHandler payment = new PaymentHandler();
 
-
         stock.setNext(fraud);
         fraud.setNext(inventory);
 
