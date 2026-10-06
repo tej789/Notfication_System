@@ -6,10 +6,11 @@ but we still need to check required fields.
 
 
 Today:
-=> Implementing Email Verification Through Email Otp Verification and SMS Otp Notification with Observer Design Pattern , Here I used Email Otp notification with JavaMailSender and for SMS Otp notification with Twilio
+=> Fixed Active and Inactive user Issue , Added Adapter Design Pattern in JavaMailSender , Also Worked On Observer Design Pattern For Email Verification Through Email And SMS Notification
 Tomorrow:
-=> Adapter Design pattern in JavaMailSender
+=> Will Add Adapter Design Pattern in SMS Sender
 Impediments:
-=> NONE
+=> In SMS Notification Through Phone Number Using Twilio
+
 
 
