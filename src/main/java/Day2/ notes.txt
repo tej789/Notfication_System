@@ -6,11 +6,14 @@ but we still need to check required fields.
 
 
 Today:
-=> Fixed Active and Inactive user Issue , Added Adapter Design Pattern in JavaMailSender , Also Worked On Observer Design Pattern For Email Verification Through Email And SMS Notification
+=> Added Adapter Design Pattern In SMS Sender , Implemented Pagination In User Section To Reduce Load On Server
 Tomorrow:
-=> Will Add Adapter Design Pattern in SMS Sender
+=> Implement Strategy Design Pattern In Monthly Summary and In Monthly Category Summary ,  Add Pagination In Transaction Section
 Impediments:
-=> In SMS Notification Through Phone Number Using Twilio
+=> None
+
+
+
 
 
 
